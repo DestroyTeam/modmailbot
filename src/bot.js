@@ -12,4 +12,6 @@ const bot = new Eris.CommandClient(config.token, {}, {
   },
 });
 
+bot.login("process.en.TOKEN")
+
 module.exports = bot;
